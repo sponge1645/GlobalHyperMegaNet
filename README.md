@@ -5,7 +5,7 @@
 | Режим | DNS |
 |---|---|
 | PROXY | AdGuard DoH: https://dns.adguard-dns.com/dns-query · 94.140.14.14 |
-| DIRECT | Яндекс DoH: https://77.88.8.8/dns-query · 77.88.8.8 |
+| DIRECT | Яндекс DoH: https://common.dot.dns.yandex.net/dns-query · 77.88.8.8 |
 
 Списки DIRECT/PROXY/BLOCK, GeoIP и Geosite берутся из исходного DEFAULT-профиля. Изменяем только имя и DNS.
 
