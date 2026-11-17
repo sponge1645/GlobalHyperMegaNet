@@ -28,7 +28,7 @@ def download(client):
         "RemoteDNSIP":"94.140.14.14",
         "DomesticDns":"77.88.8.8",
         "DomesticDNSType":"DoH",
-        "DomesticDNSDomain":"https://77.88.8.8/dns-query",
+        "DomesticDNSDomain":"https://common.dot.dns.yandex.net/dns-query",
         "DomesticDNSIP":"77.88.8.8",
     })
     return data
