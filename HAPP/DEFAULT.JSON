@@ -30,7 +30,12 @@
     "geosite:steam",
     "geosite:twitch",
     "geosite:pinterest",
-    "geosite:faceit"
+    "geosite:faceit",
+    "domain:6porno365.fun",
+    "domain:maps.yandex.net",
+    "domain:api-maps.yandex.ru",
+    "domain:yastatic.net",
+    "domain:suggest-maps.yandex.ru"
   ],
   "DirectIp": [
     "geoip:private",
@@ -41,7 +46,8 @@
     "geosite:github",
     "geosite:twitch-ads",
     "geosite:youtube",
-    "geosite:telegram"
+    "geosite:telegram",
+    "domain:myip.nl"
   ],
   "ProxyIp": [],
   "BlockSites": [
