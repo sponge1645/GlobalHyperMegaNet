@@ -32,7 +32,7 @@ def download(client):
         "DomesticDNSIP":"77.88.8.8",
     })
     # Stable local overrides: preserve these on every upstream refresh.
-    for domain in ["keyword:porno365","domain:maps.yandex.net","domain:api-maps.yandex.ru","domain:yastatic.net","domain:suggest-maps.yandex.ru"]:
+    for domain in ["keyword:porno365"]:
         if domain not in data["DirectSites"]:
             data["DirectSites"].append(domain)
     for domain in ["domain:myip.nl"]:
