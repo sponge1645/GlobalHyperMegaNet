@@ -31,6 +31,13 @@ def download(client):
         "DomesticDNSDomain":"https://common.dot.dns.yandex.net/dns-query",
         "DomesticDNSIP":"77.88.8.8",
     })
+    # Stable local overrides: preserve these on every upstream refresh.
+    for domain in ["domain:6porno365.fun","domain:maps.yandex.net","domain:api-maps.yandex.ru","domain:yastatic.net","domain:suggest-maps.yandex.ru"]:
+        if domain not in data["DirectSites"]:
+            data["DirectSites"].append(domain)
+    for domain in ["domain:myip.nl"]:
+        if domain not in data["ProxySites"]:
+            data["ProxySites"].append(domain)
     return data
 
 def main():
